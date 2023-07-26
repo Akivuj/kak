@@ -1,7 +1,7 @@
-# Agrega el numero de linea
+# Agrega el numero de linea y resalta la linea donde se encuentra el cursor
 add-highlighter global/ number-lines -hlcursor -separator ' '
 
-# Switch cursor color in insert mode
+# Cambia el cursor a guion bajo en modo insert
 set-face global InsertCursor white+u
 
 hook global ModeChange .*:.*:insert %{

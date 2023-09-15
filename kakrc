@@ -1,5 +1,5 @@
 # Cambia el tema
-colorscheme zenburn
+colorscheme plain
 
 # Agrega el numero de linea y resalta la linea donde se encuentra el cursor
 add-highlighter global/ number-lines -hlcursor -separator ' '

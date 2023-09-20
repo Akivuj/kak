@@ -2,13 +2,13 @@
 add-highlighter global/ number-lines -hlcursor -separator ' '
 
 # Agrega el ajuste de lineas
-add-highlighter global/ wrap -indent
+add-highlighter global/ wrap -word -indent
 
-# Hace invisibles los numeros de linea duplicados
-set-face global LineNumbersWrapped rgb:2d2d2d,rgb:2d2d2d
+# Oscurece los numeros de linea duplicados
+set-face global LineNumbersWrapped +d
 
 # Cambia el cursor a guion bajo en modo insert
-set-face global InsertCursor white+u
+set-face global InsertCursor +u
 
 hook global ModeChange .*:.*:insert %{
     set-face window PrimaryCursor InsertCursor

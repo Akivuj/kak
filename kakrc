@@ -1,11 +1,8 @@
-# Cambia el tema
-colorscheme plain
-
 # Agrega el numero de linea y resalta la linea donde se encuentra el cursor
 add-highlighter global/ number-lines -hlcursor -separator ' '
 
 # Agrega el ajuste de lineas
-add-highlighter global/ wrap
+add-highlighter global/ wrap -indent
 
 # Hace invisibles los numeros de linea duplicados
 set-face global LineNumbersWrapped rgb:2d2d2d,rgb:2d2d2d

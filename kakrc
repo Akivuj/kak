@@ -1,3 +1,6 @@
+# Habilita el autocompletado solo en modo prompt
+set-option global autocomplete prompt
+
 # Agrega el numero de linea y resalta la linea donde se encuentra el cursor
 add-highlighter global/ number-lines -hlcursor -separator ' '
 
